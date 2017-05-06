@@ -1,0 +1,10 @@
+#componenti da installare
+pip
+pip install
+sudo pip install Flask
+sudo pip install -U flask-cors
+sudo pip install flask-mysql
+
+#per eseguire il web server
+export FLASK_APP=testing.py
+flask run --host=0.0.0.0
